@@ -1,0 +1,37 @@
+.container {
+  font-family: "Poppins", sans-serif;
+  max-width: 700px;
+  overflow: hidden;
+  position: relative;
+}
+#rain-weather {
+  color: rgb(78, 112, 157);
+}
+#sun-weather {
+  color: #f7e185;
+}
+#cloud-weather {
+  color: #e7eaf6;
+}
+.card-text {
+  color: #9ba6a5;
+  text-decoration: solid;
+}
+.card-subtitle {
+  font-size: 14px;
+}
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.95;
+  position: absolute;
+}
+li {
+  color: #9ba6a5;
+  list-style: none;
+}
+p {
+  color: #9ba6a5;
+}
