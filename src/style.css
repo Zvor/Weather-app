@@ -1,25 +1,3 @@
-.container {
-  font-family: "Poppins", sans-serif;
-  max-width: 700px;
-  overflow: hidden;
-  position: relative;
-}
-#rain-weather {
-  color: rgb(78, 112, 157);
-}
-#sun-weather {
-  color: #f7e185;
-}
-#cloud-weather {
-  color: #e7eaf6;
-}
-.card-text {
-  color: #9ba6a5;
-  text-decoration: solid;
-}
-.card-subtitle {
-  font-size: 14px;
-}
 #myVideo {
   right: 0;
   bottom: 0;
@@ -28,11 +6,31 @@
   opacity: 0.95;
   position: absolute;
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 700px;
+  overflow: hidden;
+  position: relative;
+}
+h1 {
+  color: #b3b3b3;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
 li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #878787;
+  color: #b3b3b3;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -40,24 +38,30 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
-
-p {
-  color: #9ba6a5;
+.weather-app-wrapper {
+  max-width: 600px;
+  /*to center it*/
+  margin: 100px auto;
 }
-ul {
-  margin: 0;
-  padding: 0;
+.weather-app {
+  padding: 20px;
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
 }
-.weather-temperature strong {
-  color: black;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 1;
+.overview {
+  margin-bottom: 20px;
 }
 .weather-temperature img {
   margin-right: 5px;
   height: 64px;
   width: 64px;
+}
+.weather-temperature strong {
+  color: #b3b3b3;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
 }
 .weather-temperature .units {
   position: relative;
@@ -65,7 +69,7 @@ ul {
   top: -34px;
 }
 .weather-temperature .active {
-  color: rgb(33, 33, 33);
+  color: #b3b3b3;
   cursor: default;
 }
 .weather-temperature .active:hover {
